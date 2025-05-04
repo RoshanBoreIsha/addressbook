@@ -69,17 +69,16 @@
                 </configuration>
             </plugin>
 
-            <!-- WAR Plugin for creating the WAR file -->
+            <!-- WAR Plugin for creating the WAR file (Updated Version) -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
-                <version>3.3.1</version>
+                <version>3.3.1</version> <!-- Updated Version -->
                 <configuration>
                     <!-- Set the web app directory if needed -->
                     <webappDirectory>${project.build.directory}/webapps</webappDirectory>
                 </configuration>
             </plugin>
-
         </plugins>
     </build>
 
